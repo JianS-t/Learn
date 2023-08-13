@@ -1,0 +1,123 @@
+﻿$(document).ready(function () {
+
+    $(".tab-li").click(function () {
+        $(".tab-li").removeClass("on");
+        $(this).addClass("on");
+    });
+    $(".tab-li1").click(function () {
+        $(".tab-con").hide();
+        $(".tab-con1").show();
+    });
+    $(".tab-li2").click(function () {
+        $(".tab-con").hide();
+        $(".tab-con2").show();
+    });
+    $(".tab-li3").click(function () {
+        $(".tab-con").hide();
+        $(".tab-con3").show();
+    });
+    $(".ss-xl").click(function () {
+        if ($(".ss-xl").hasClass("on")) {
+            $(".ss-xl").removeClass("on");
+            $(".ss-nav-ul").removeClass("height");
+        } else {
+            $(".ss-xl").addClass("on");
+            $(".ss-nav-ul").addClass("height");
+        }
+    });
+
+    $(".esc").click(function () {
+        debugger;
+        if($(".nav-ul"))$(".nav-ul").removeClass("open");
+        if($(".login-box"))$(".login-box").hide();
+        if($(".zhe-bg"))$(".zhe-bg").hide();
+        clearInterval(PCLoginInterval);
+    });
+    $(".top-login").click(function () {
+        debugger;
+        var lohref = $(this).data("lohref");
+        if (lohref != undefined && lohref != '') {
+            $("#hidlohref").val(lohref);
+        } else {
+            $("#hidlohref").val("");
+        }
+        $(".login-box").show();
+        $(".zhe-bg").show();
+		        toWeixinLogin_saoma();
+    });
+    $(".name-span").click(function () {
+        $(".name-input").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".qq-span").click(function () {
+        $(".qq-input").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".email-span").click(function () {
+        $(".email-input").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".six-span").click(function () {
+        $(".six-input").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".ms-span").click(function () {
+        $(".ms-input").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".ms-spanExt2").click(function () {
+        $(".ms-inputExt2").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".ms-spanExt3").click(function () {
+        $(".ms-inputExt3").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".ms-spanExt4").click(function () {
+        $(".ms-inputExt4").removeAttr("disabled");
+        $(".user-main-info1 .cun-btn").show();
+    });
+    $(".ms-spanExt5").click(function () {
+        $("#btnExt5").show();
+        $(".user-main-info1 .cun-btn").show();
+    });
+    //$(".user-main-info1 .cun-btn").click(function () {
+    //    $(".name-input").attr("disabled", "disabled");
+    //    $(".qq-input").attr("disabled", "disabled");
+    //    $(".email-input").attr("disabled", "disabled");
+    //    $(".six-input").attr("disabled", "disabled");
+    //    $(".ms-input").attr("disabled", "disabled");
+    //});
+    $(".mobile-span").click(function () {
+        $(".user-main-info3 .cun-btn").show();
+        $(".divmobile").show();
+    });
+    $(".pass-span").click(function () {
+        $("#OldPassword").removeAttr("disabled");
+        $("#OldPassword").removeAttr("placeholder");
+        $(".user-main-info2 .cun-btn").show();
+        $(".divpassword").show();
+    });
+    $(".nav1").click(function () {
+        $(".nav").removeClass("on");
+        $(".login-form-1").show();
+        $(".login-form-2").hide();
+        $(this).addClass("on");
+    });
+    $(".nav2").click(function () {
+        $(".nav").removeClass("on");
+        $(".login-form-2").show();
+        $(".login-form-1").hide();
+        $(this).addClass("on");
+    });
+    $(".ewm-login2").click(function () {
+        $(".login-2").hide();
+        $(".login-1").show();
+        clearInterval(PCLoginInterval);
+    });
+    $(".ewm-login1").click(function () {
+        $(".login-1").hide();
+        $(".login-2").show();
+        toWeixinLogin_saoma();
+    });
+});
