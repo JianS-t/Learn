@@ -1,0 +1,6 @@
+ffmpeg -y -i 配对.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  配对-out.mp4
+ffmpeg -y -i 茶水间全覆盖清扫.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  茶水间全覆盖清扫-out.mp4
+ffmpeg -y -i 回充1.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  回充1-out.mp4
+ffmpeg -y -i 重定位和回充.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  重定位和回充-out.mp4
+ffmpeg -y -i 虚拟墙划分.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  虚拟墙划分-out.mp4
+
