@@ -1,1 +1,0 @@
-try {AccCallBack([{"cmd":"OK","position":"closeRepeatSession","ecode":"1"}],null);} catch (e) {}

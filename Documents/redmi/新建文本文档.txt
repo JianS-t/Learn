@@ -1,3 +1,0 @@
-ffmpeg -y -i 虚拟墙.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30 -s 1920x1080 虚拟墙-out.mp4
-ffmpeg -y -i 重定位.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  重定位-out.mp4
-ffmpeg -y -i 全覆盖.mp4 -c:a copy -c:v libx264 -profile:v high -r 30 -crf 30  全覆盖-out.mp4
