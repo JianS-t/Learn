@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS/navigation/autolabor/概述.md",
+                "file": "123.md",
                 "mode": "preview",
                 "source": false
               }
@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1cb08838262dd317",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "adqw.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe3770aab154d727",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/navigation/autolabor/概述.md",
+                "file": "adqw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/navigation/autolabor/概述.md",
+                "file": "adqw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/navigation/autolabor/概述.md"
+                "file": "adqw.md"
               }
             }
           }
@@ -158,28 +171,31 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f5947537cc34f904",
+  "active": "1cb08838262dd317",
   "lastOpenFiles": [
+    "Diary/2024-01-07.md",
+    "adqw.md",
     "123.md",
-    "表格转换-tableconvert.md",
+    "Diary",
     "历史上的今天.md",
+    "ROS/navigation/autolabor/概述.md",
+    "表格转换-tableconvert.md",
     "文本处理-textce.md",
     "正则表达式验证.md",
-    "ROS/navigation/autolabor/概述.md",
     "ROS/navigation/autolabor/导航实现.md",
+    "ROS/navigation/autolabor/images/Pasted image 20230816001632.png",
     "未命名 2",
     "Excalidraw/Drawing 2023-08-18 19.50.38.excalidraw.md",
     "Excalidraw",
-    "ROS/navigation/autolabor/images/Pasted image 20230816001632.png",
     "ROS/navigation/autolabor/images",
     "Pasted image 20230816001325.png.md",
     "Pasted image 20230816001325.png",
     "ROS/navigation/autolabor",
     "ROS/navigation",
-    "未命名 1",
     "未命名",
     "ROS"
   ]
