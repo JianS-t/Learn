@@ -1,11 +1,12 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 4,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "Fab42Group",
       "FabAppStore",
       "FabAccusoft"
     ],
@@ -17,8 +18,11 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false
-  },
-  "ROS/navigation": "FabAccusoft",
-  "ROS": "FabAppStore"
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  }
 }

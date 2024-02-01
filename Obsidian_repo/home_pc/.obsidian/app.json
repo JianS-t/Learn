@@ -1,4 +1,7 @@
 {
-  "attachmentFolderPath": "./images",
-  "promptDelete": false
+  "attachmentFolderPath": "",
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }

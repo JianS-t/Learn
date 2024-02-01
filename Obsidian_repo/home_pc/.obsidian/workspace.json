@@ -8,43 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd76e22d7e4ca36c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "123.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5947537cc34f904",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS/navigation/autolabor/概述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1cb08838262dd317",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "adqw.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "fe3770aab154d727",
@@ -111,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "adqw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "adqw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "adqw.md"
+                "file": "表格转换-tableconvert.md"
               }
             }
           }
@@ -159,44 +127,45 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1cb08838262dd317",
+  "active": "28e6e963e3ff96b3",
   "lastOpenFiles": [
-    "Diary/2024-01-07.md",
+    "请先阅读这里（Readme）.md",
+    "Spaces",
+    "Sources",
+    "Extras/Others",
+    "Extras/Draws",
+    "Extras",
+    "Calender/Daily notes/归档",
+    "Calender/Daily notes",
+    "Calender",
+    "文本处理-textce.md",
+    "历史上的今天.md",
+    "正则表达式验证.md",
     "adqw.md",
     "123.md",
-    "Diary",
-    "历史上的今天.md",
-    "ROS/navigation/autolabor/概述.md",
     "表格转换-tableconvert.md",
-    "文本处理-textce.md",
-    "正则表达式验证.md",
+    "ROS/navigation/autolabor/概述.md",
+    "Diary/2024-01-07.md",
+    "Diary",
     "ROS/navigation/autolabor/导航实现.md",
     "ROS/navigation/autolabor/images/Pasted image 20230816001632.png",
     "未命名 2",
     "Excalidraw/Drawing 2023-08-18 19.50.38.excalidraw.md",
-    "Excalidraw",
-    "ROS/navigation/autolabor/images",
     "Pasted image 20230816001325.png.md",
-    "Pasted image 20230816001325.png",
-    "ROS/navigation/autolabor",
-    "ROS/navigation",
-    "未命名",
-    "ROS"
+    "Pasted image 20230816001325.png"
   ]
 }
